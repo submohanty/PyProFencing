@@ -12,7 +12,7 @@ This is a two player game playable on one keyboard, where both players try to pu
 
 ### Color Changing  
 If you would like to change the color of your player models, find this block of code and change the rgb values where indicated by my comment:
-```
+``` Python
     def collideCircleCircle(self,other):
         if(dist(self.x,self.y,other.x,other.y)<=self.siz/2+other.siz/2):
             other.col=color(0,255,0) # change the RGB color value
@@ -28,3 +28,5 @@ If you would like to change the color of your player models, find this block of 
             other.col = color(0,0,255)
             return False
 ```  
+### Download/Install
+Click releases to download the binary for your machine or clone the repository to change the source code.
